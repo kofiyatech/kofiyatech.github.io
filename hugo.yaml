@@ -1,0 +1,39 @@
+baseURL: "http://localhost/"
+languageCode: "en-us"
+title: "kofiyatech"
+theme: "PaperMod"
+pagination:
+  pageSize: 10
+
+params:
+  defaultTheme: "auto"
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowShareButtons: false
+  disableThemeToggle: false
+  logo:
+    enabled: true
+    path: "logo/kofiyatech-logo.png"
+    link: "/"
+    alt: "kofiyatech"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Newsletter"
+      url: "/newsletter/"
+      weight: 2
+    - name: "Contact"
+      url: "/contact/"
+      weight: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+
