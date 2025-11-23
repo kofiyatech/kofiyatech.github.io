@@ -1,7 +1,7 @@
 baseURL: "http://localhost/"
 languageCode: "en-us"
 title: "kofiyatech"
-theme: "PaperMod"
+theme: "papermod"
 pagination:
   pageSize: 10
 
