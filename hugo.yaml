@@ -1,4 +1,4 @@
-baseURL: "http://localhost/"
+baseURL: "https://kofiyatech.github.io/"
 languageCode: "en-us"
 title: "kofiyatech"
 theme: "papermod"
@@ -7,17 +7,26 @@ pagination:
 
 params:
   defaultTheme: "auto"
+
   ShowBreadCrumbs: true
   ShowReadingTime: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   ShowShareButtons: false
-  disableThemeToggle: false
-  logo:
-    enabled: true
-    path: "logo/kofiyatech-logo.png"
-    link: "/"
-    alt: "kofiyatech"
+  disableThemeToggle: true
+  assets:
+    favicon: "/logo/kofiyatech.png"
+    favicon_32: "/logo/kofiyatech.png"
+    favicon_16: "/logo/kofiyatech.png"
+
+  profileMode:
+    enabled: false
+
+  # Header Logo
+  label:
+    enable: true
+    icon: "/logo/kofiyatech.png"
+    iconHeight: 60
 
 menu:
   main:
